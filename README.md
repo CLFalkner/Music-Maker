@@ -63,3 +63,8 @@ Bringing everything together:
     meaning that the program will not respond to button pushes.
 3. If you choose version 8, the LCD and IR Receiver will work properly, but the speaker will only emit static.
 4. For now, until I figure out the problem, you will have figure out how to make these three function properly together.
+
+VIDEO DEMONSTRATIONS:
+
+Version 7: https://photos.app.goo.gl/avaCfWhVJYGwQ4167
+Version 8: https://photos.app.goo.gl/rCHJ8WERUf3sUtJn7
