@@ -20,7 +20,7 @@ To set up the speaker:
 2. Connect the ground (black wire) to the GND.
 3. If the speaker is to loud, use a resistor to reduce the signal power to the speaker.
 
-To set up the IrReceiver:
+To set up the IR Receiver:
 1. Connect the Y pin to digital pin 10.
 2. Connect the R pin to power (5V).
 3. Connect the G pin to GND.
@@ -43,3 +43,23 @@ This is how my setup looks:
 ![PXL_20211210_213545296](https://user-images.githubusercontent.com/47128769/145646316-bb03a7a0-7719-4a37-a8e4-f88894c86b58.jpg)
 
 
+SOFTWARE:
+
+To set up the LCD:
+1. Run the LCDTestCode to make sure everything works: https://github.com/CLFalkner/Music-Maker/tree/main/LCDTestCode
+
+To set up the IR Receiver:
+1. Do the same with the IR Receiver: https://github.com/CLFalkner/Music-Maker/tree/main/RemoteTestCode_2
+2. Please note that the RemoteTestCode file does not work, you must use RemoteTestCode_2
+3. Use RemoteTestCode_2 to record the individual codes for each button.
+4. You will need to replace my button codes with yours in order for the program to know what to do when a button is pressed.
+
+To set up the speaker:
+1. The speaker needs no special setup.
+
+Bringing everything together:
+1. Follow the code of versions 7 or 8, but be mindful that neither version works correctly.
+2. If you choose version 7, the LCD and speaker will work properly, but communication with the IR Receiver will be nonexistent,
+    meaning that the program will not respond to button pushes.
+3. If you choose version 8, the LCD and IR Receiver will work properly, but the speaker will only emit static.
+4. For now, until I figure out the problem, you will have figure out how to make these three function properly together.
