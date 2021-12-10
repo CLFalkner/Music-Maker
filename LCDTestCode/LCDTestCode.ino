@@ -7,7 +7,7 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7);    // initialize the LCD with the dec
 
 void setup() {
   lcd.begin(16, 2);                     // tell the LCD the dimensions of the display (count the white boxes)
-  lcd.print("hello, world");
+  lcd.print("hello, world");            // display "Hello World" on the screen
   
 }
 
