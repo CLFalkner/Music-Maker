@@ -6,6 +6,9 @@ A separate LCD display tells users the corresponding octave and letter for the p
 
 Please note that this project does NOT work properly.
 
+MOTIVATION:
+Who doesn't like music?
+
 WIRING AND HARDWARE:
 
 Starter Arduino kit: https://smile.amazon.com/gp/product/B01EWNUUUA/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&th=1
@@ -68,3 +71,20 @@ VIDEO DEMONSTRATIONS:
 
 Version 7: https://photos.app.goo.gl/avaCfWhVJYGwQ4167
 Version 8: https://photos.app.goo.gl/rCHJ8WERUf3sUtJn7
+
+THE ORDER IN WHICH I BUILT THE MUSIC-MAKER:
+
+3. Changed goals. Program speaker to play musical notes.
+3.a. Reference tutorial: https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneMelody
+4. Set up remote. Identify codes for each button and sort notes into octaves
+4.a. Tutorial: https://create.arduino.cc/projecthub/electropeak/use-an-ir-remote-transmitter-and-receiver-with-arduino-1e6bc8
+5. Program buttons to play notes of an octave and cycle through octaves on command
+6. Display octave and note information on LCD (not working)
+6.a. Tutorial: https://create.arduino.cc/projecthub/najad/interfacing-lcd1602-with-arduino-764ec4
+7. Troubleshoot
+7.a. The LCD and speaker are working properly, but not the IR Receiver.
+8. The LCD and IrReceiver are working properly, but not the speaker.
+
+You will notice how steps 1 and 2 are missing in these steps. This is because I started this project working
+towards another goal, but early on missed my chance to obtain the materials I needed for it and chose to change gears.
+The corresponding project versions for 1 and 2, however, are still included in this repository.
