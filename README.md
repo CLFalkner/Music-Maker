@@ -42,6 +42,11 @@ To set up the LCD:
 11. Connect A to 5V using a 220 ohm resistor.
 12. Connect K to GND.
 
+Wiring Schematics:
+![MusicMaker_Schematics](https://user-images.githubusercontent.com/47128769/145889778-24cbebcd-3444-4975-9348-0806b915cb0e.png)
+
+You can also download the schematics file (MusicMaker_Schematics.ckt) from this repository and open it in Cirkit Designer.
+
 This is how my setup looks:
 ![PXL_20211210_213545296](https://user-images.githubusercontent.com/47128769/145646316-bb03a7a0-7719-4a37-a8e4-f88894c86b58.jpg)
 
