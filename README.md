@@ -117,5 +117,5 @@ You will notice how steps 1 and 2 are missing in these steps. This is because I 
 towards another goal, but early on missed my chance to obtain the materials I needed for it and chose to change gears.
 The corresponding project versions for 1 and 2, however, are still included in this repository.
 
-For further comments, visit the following page:
+For further comments, please visit the following page:
 https://chloefalkner.wordpress.com/2021/12/13/music-maker/
