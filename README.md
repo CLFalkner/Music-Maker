@@ -42,6 +42,29 @@ To set up the LCD:
 11. Connect A to 5V using a 220 ohm resistor.
 12. Connect K to GND.
 
+Flow of Power:
+
+The speaker has two connections. The connection to the digital pin acts as the power - when it is being sent a signal.
+When a signal is not being sent, it is similar to being off. The second connection is to ground, and completes the circuit.
+If there is no ground connection, the electricity will not flow because it will have no where to go, even with an active signal pin.
+Electricity must have both a source (power or a signal pin) and a destination (ground).
+
+The IR Receiver has three connections: ground, power, and a signal pin. Because the IR Receiver must stay on constantly to receive
+communications from the remote, it is given a direct source of electricity from the power connection.
+In this case, the signal pin is used for a different purpose: relaying the button data from the remote to the Arduino/computer.
+The ground connection is the same as it is with the speaker: it completes the circuit.
+
+The LCD has twelve connections. Like the IR Receiver, two of them are ground (VSS) and power (VDD) and serve the same purpose.
+V0 is used to control the contrast. The more power it is given, the lower constrast the display will be. This is why it is connected to 
+ground - we want the most contrast possible. If you want to control the contrast, hook up a potentiometer.
+RS, donnected to a digital pin, is used for data registry. RW tells sets the LCD up for Write mode or Read mode. Because we are sending 
+information to the LCD to display, we connect it to ground. If connected to power, It would be in Read mode.
+E, also a digital pin connection, is there so that the program can enable the LCD and do what it needs to do.
+D4-D7 are for trasnfering relevant data back and forth through the digital pins.
+A and K are the anode and cathode of the backlight and connected to the power and ground, respectively.
+
+For more information on the LCD: https://create.arduino.cc/projecthub/najad/interfacing-lcd1602-with-arduino-764ec4
+
 Wiring Schematics:
 ![MusicMaker_Schematics](https://user-images.githubusercontent.com/47128769/145889778-24cbebcd-3444-4975-9348-0806b915cb0e.png)
 
